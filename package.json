@@ -9,17 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flawless-ui/react": "^2.0.2",
+    "@hookform/resolvers": "^3.1.0",
+    "@prisma/client": "^4.14.1",
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "next": "13.4.2",
+    "nookies": "^2.5.2",
+    "phosphor-react": "^1.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
     "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/cookie": "^0.5.1",
+    "cookie": "^0.5.0",
+    "prisma": "^4.14.1"
   }
 }
