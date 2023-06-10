@@ -10,7 +10,7 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
-    "@flawless-ui/react": "^2.0.2",
+    "@flawless-ui/react": "^2.1.0",
     "@hookform/resolvers": "^3.1.0",
     "@prisma/client": "^4.14.1",
     "@tanstack/react-query": "^4.29.12",
