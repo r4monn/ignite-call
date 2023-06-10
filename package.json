@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@flawless-ui/react": "^2.0.2",
@@ -39,6 +40,7 @@
     "@rocketseat/eslint-config": "^1.2.0",
     "@types/cookie": "^0.5.1",
     "cookie": "^0.5.0",
+    "eslint-config-prettier": "^8.8.0",
     "prisma": "^4.14.1"
   }
 }
